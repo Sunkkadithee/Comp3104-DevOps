@@ -30,4 +30,4 @@ jobs:
       - name: Deploy to GitHub Pages
         run: npm run deploy
         env:
-          GITHUB_TOKEN: ${{ secrets.GCOMP3104_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.COMP3104_TOKEN }}
